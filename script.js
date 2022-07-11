@@ -99,13 +99,12 @@
     });
 
     formLoginEl.addEventListener('change', () => {        
-        if (userLoginEl.value === '' || userPasswordEl.value.trim() === ''){
-            console.log('asa');
+        if (userLoginEl.value === '' || userPasswordEl.value.trim() === ''){           
             loginEl.disabled = true;
         } else {
             loginEl.disabled = false;
         }
-    })
+    });
        
     function getRegistrationVerification () {
         let userPasswordValue = document.getElementById('user__password').value; 
