@@ -1,0 +1,33 @@
+.line__through {
+    text-decoration: line-through;
+}
+
+.hiden {
+    visibility: hidden;
+}
+
+.display__none {
+    display: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+#login {
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.border__red {
+    border:  2px solid red;
+}
+
+.error__message {
+    margin-bottom: 10px;
+    color: red;
+}

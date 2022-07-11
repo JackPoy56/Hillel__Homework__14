@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homework 14</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form id="registration">
+        <label for="user__login">
+            User login:
+        </label>
+        <input type="text" id="user__login">        
+        <span class="hiden error__message" id="wrong__login">
+            Wrong input format. Needs to be fixed(name@domain.com)!
+        </span>        
+        <label for="user__password">
+            User password:
+        </label>
+        <input type="text" id="user__password">        
+        <button id="login">
+            Log in
+        </button>
+        <span class="error__message" id="error__message">            
+        </span>
+    </form>
+    <div id="to__do__list" class="display__none">
+        <label for="text">
+            Enter the text: 
+        </label>
+        <input type="text" id="user__value">
+        <button id="add__item">
+            Add
+        </button>
+        <button type="text" id="check__all">
+            Check All
+        </button>
+        <button type="text" id="delete__all">
+            Delete All
+        </button>
+        <h2>
+            Your list:
+        </h2>
+        <ul class="list"></ul>        
+    </div>
+</body>
+</html>    
