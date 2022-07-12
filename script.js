@@ -39,8 +39,8 @@
                 });    
             }
 
-            newElLi.addEventListener('click', (event) => {  
-                if (event.target.closest('button')) newElLi.remove();
+            listEl.addEventListener('click', (event) => {  
+                if (event.target.closest('button')) event.target.closest('li').remove();
                 if (event.target.closest('input')) onAddStyleLineThrough();            
             });
           
